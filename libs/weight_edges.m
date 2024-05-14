@@ -15,10 +15,10 @@ function [G_r, G_mod] = weight_edges(s,t)
         %Get snr and ber
         snr = unifrnd(-5,5);
         ber = unifrnd(0,1);
-        e = Edge(bn,endn,ber,snr);
+        e = Edge(ber,snr);
 
         %Weight of real graph
-        w_r(i) = e.calcval;
+        w_r(i) = e.weight;
         %Weight according to the kimura model
         w_mod(i) = weight_kimura(e);
     end
