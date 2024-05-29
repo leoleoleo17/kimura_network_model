@@ -3,7 +3,7 @@ Implementation of the Kimura 3 parameter model to simulate noisy channels in net
 Developed by Leonardo Luengas for a Number Theory course in the program of Applied Math and Computer Science at the Universidad del Rosario in Bogotá, Colombia.
 5/13/2024
 
-The network architectures tested for the project are the following
+The network architectures tested for this project are the following
 
 ![red_1](https://github.com/leoleoleo17/kimura_network_model/assets/67807484/2f912f6c-8606-47ef-a206-ab14dea4b0e0)
 
